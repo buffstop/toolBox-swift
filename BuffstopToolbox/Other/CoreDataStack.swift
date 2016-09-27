@@ -36,8 +36,8 @@ class CoreDataStack {
         
         // Check if custom base URL has been passed ...
         let docURL:URL
-        if baseUrl! {
-            docURL = baseUrl
+        if baseUrl != nil {
+            docURL = baseUrl!
         } else { // ... otherwize use default
             let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
             docURL = urls[urls.endIndex-1]
