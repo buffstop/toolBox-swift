@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4932CC981D917B6100E46E41 /* BuffstopToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */; };
+		4932CC9D1D917B6100E46E41 /* BuffstopToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932CC9C1D917B6100E46E41 /* BuffstopToolboxTests.swift */; };
+		4932CC9F1D917B6100E46E41 /* BuffstopToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4932CC911D917B6100E46E41 /* BuffstopToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4932CC991D917B6100E46E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4932CC851D917B6100E46E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4932CC8D1D917B6100E46E41;
+			remoteInfo = BuffstopToolbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BuffstopToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4932CC911D917B6100E46E41 /* BuffstopToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuffstopToolbox.h; sourceTree = "<group>"; };
+		4932CC921D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4932CC971D917B6100E46E41 /* BuffstopToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuffstopToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4932CC9C1D917B6100E46E41 /* BuffstopToolboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuffstopToolboxTests.swift; sourceTree = "<group>"; };
+		4932CC9E1D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4932CC8A1D917B6100E46E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932CC941D917B6100E46E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4932CC981D917B6100E46E41 /* BuffstopToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4932CC841D917B6100E46E41 = {
+			isa = PBXGroup;
+			children = (
+				4932CC901D917B6100E46E41 /* BuffstopToolbox */,
+				4932CC9B1D917B6100E46E41 /* BuffstopToolboxTests */,
+				4932CC8F1D917B6100E46E41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4932CC8F1D917B6100E46E41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */,
+				4932CC971D917B6100E46E41 /* BuffstopToolboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4932CC901D917B6100E46E41 /* BuffstopToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				4932CCAA1D917C2D00E46E41 /* UIKit */,
+				4932CCA91D917C2200E46E41 /* Foundation */,
+				4932CCA81D917C1400E46E41 /* RxSwift */,
+				4932CC911D917B6100E46E41 /* BuffstopToolbox.h */,
+				4932CC921D917B6100E46E41 /* Info.plist */,
+			);
+			path = BuffstopToolbox;
+			sourceTree = "<group>";
+		};
+		4932CC9B1D917B6100E46E41 /* BuffstopToolboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				4932CC9C1D917B6100E46E41 /* BuffstopToolboxTests.swift */,
+				4932CC9E1D917B6100E46E41 /* Info.plist */,
+			);
+			path = BuffstopToolboxTests;
+			sourceTree = "<group>";
+		};
+		4932CCA81D917C1400E46E41 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RxSwift;
+			sourceTree = "<group>";
+		};
+		4932CCA91D917C2200E46E41 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		4932CCAA1D917C2D00E46E41 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4932CC8B1D917B6100E46E41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4932CC9F1D917B6100E46E41 /* BuffstopToolbox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4932CC8D1D917B6100E46E41 /* BuffstopToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4932CCA21D917B6100E46E41 /* Build configuration list for PBXNativeTarget "BuffstopToolbox" */;
+			buildPhases = (
+				4932CC891D917B6100E46E41 /* Sources */,
+				4932CC8A1D917B6100E46E41 /* Frameworks */,
+				4932CC8B1D917B6100E46E41 /* Headers */,
+				4932CC8C1D917B6100E46E41 /* Resources */,
+				499AF2511D9A78FD0081477C /* Build Fat Lib */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuffstopToolbox;
+			productName = BuffstopToolbox;
+			productReference = 4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4932CC961D917B6100E46E41 /* BuffstopToolboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4932CCA51D917B6100E46E41 /* Build configuration list for PBXNativeTarget "BuffstopToolboxTests" */;
+			buildPhases = (
+				4932CC931D917B6100E46E41 /* Sources */,
+				4932CC941D917B6100E46E41 /* Frameworks */,
+				4932CC951D917B6100E46E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4932CC9A1D917B6100E46E41 /* PBXTargetDependency */,
+			);
+			name = BuffstopToolboxTests;
+			productName = BuffstopToolboxTests;
+			productReference = 4932CC971D917B6100E46E41 /* BuffstopToolboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4932CC851D917B6100E46E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = buffhaltestelle;
+				TargetAttributes = {
+					4932CC8D1D917B6100E46E41 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z3SAL3W4E6;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					4932CC961D917B6100E46E41 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z3SAL3W4E6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4932CC881D917B6100E46E41 /* Build configuration list for PBXProject "BuffstopToolbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4932CC841D917B6100E46E41;
+			productRefGroup = 4932CC8F1D917B6100E46E41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4932CC8D1D917B6100E46E41 /* BuffstopToolbox */,
+				4932CC961D917B6100E46E41 /* BuffstopToolboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4932CC8C1D917B6100E46E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932CC951D917B6100E46E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		499AF2511D9A78FD0081477C /* Build Fat Lib */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Fat Lib";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Merge Script\n\n# Set bash script to exit immediately if any commands fail.\nset -e\n\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\nFAT_LIB_DIR=\"${SRCROOT}/fatlib\"\n\n# Assure fatlib dir exists\nmkdir -p ${FAT_LIB_DIR}\n\n# If remnants from a previous build exist, delete them.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n\n# Build the framework for device and for simulator (using\n# all needed architectures).\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch arm64 -arch armv7 -arch armv7s only_active_arch=no defines_module=yes -sdk \"iphoneos\"\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\"\n\n# Remove .framework file if exists from previous run.\nif [ -d \"${FAT_LIB_DIR}/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${FAT_LIB_DIR}/${FRAMEWORK_NAME}.framework\"\nfi\n\n# Copy the device version of framework.\ncp -r \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework\" \"${FAT_LIB_DIR}/${FRAMEWORK_NAME}.framework\"\n\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${FAT_LIB_DIR}/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n\n# Copy the Swift module mappings for the simulator into the\n# framework.  The device mappings already exist from previous step\ncp -r ${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/* \"${FAT_LIB_DIR}/${FRAMEWORK_NAME}.framework/Modules/\"\n\n# Delete the most recent build.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4932CC891D917B6100E46E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932CC931D917B6100E46E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4932CC9D1D917B6100E46E41 /* BuffstopToolboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4932CC9A1D917B6100E46E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4932CC8D1D917B6100E46E41 /* BuffstopToolbox */;
+			targetProxy = 4932CC991D917B6100E46E41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4932CCA01D917B6100E46E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4932CCA11D917B6100E46E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4932CCA31D917B6100E46E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z3SAL3W4E6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BuffstopToolbox/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.buffhaltestelle.BuffstopToolbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		4932CCA41D917B6100E46E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z3SAL3W4E6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BuffstopToolbox/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.buffhaltestelle.BuffstopToolbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Release;
+		};
+		4932CCA61D917B6100E46E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z3SAL3W4E6;
+				INFOPLIST_FILE = BuffstopToolboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.buffhaltestelle.BuffstopToolboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4932CCA71D917B6100E46E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z3SAL3W4E6;
+				INFOPLIST_FILE = BuffstopToolboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.buffhaltestelle.BuffstopToolboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4932CC881D917B6100E46E41 /* Build configuration list for PBXProject "BuffstopToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4932CCA01D917B6100E46E41 /* Debug */,
+				4932CCA11D917B6100E46E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4932CCA21D917B6100E46E41 /* Build configuration list for PBXNativeTarget "BuffstopToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4932CCA31D917B6100E46E41 /* Debug */,
+				4932CCA41D917B6100E46E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4932CCA51D917B6100E46E41 /* Build configuration list for PBXNativeTarget "BuffstopToolboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4932CCA61D917B6100E46E41 /* Debug */,
+				4932CCA71D917B6100E46E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4932CC851D917B6100E46E41 /* Project object */;
+}
