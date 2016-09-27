@@ -10,6 +10,7 @@
 		4932CC981D917B6100E46E41 /* BuffstopToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */; };
 		4932CC9D1D917B6100E46E41 /* BuffstopToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932CC9C1D917B6100E46E41 /* BuffstopToolboxTests.swift */; };
 		4932CC9F1D917B6100E46E41 /* BuffstopToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4932CC911D917B6100E46E41 /* BuffstopToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2551D9A8FB90081477C /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,8 @@
 		4932CC971D917B6100E46E41 /* BuffstopToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuffstopToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4932CC9C1D917B6100E46E41 /* BuffstopToolboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuffstopToolboxTests.swift; sourceTree = "<group>"; };
 		4932CC9E1D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499AF2551D9A8FB90081477C /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = Other/CoreDataStack.swift; sourceTree = "<group>"; };
+		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 				4932CC901D917B6100E46E41 /* BuffstopToolbox */,
 				4932CC9B1D917B6100E46E41 /* BuffstopToolboxTests */,
 				4932CC8F1D917B6100E46E41 /* Products */,
+				499AF2571D9A905C0081477C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +77,7 @@
 			children = (
 				4932CCAA1D917C2D00E46E41 /* UIKit */,
 				4932CCA91D917C2200E46E41 /* Foundation */,
-				4932CCA81D917C1400E46E41 /* RxSwift */,
+				499AF2541D9A8F8B0081477C /* Other */,
 				4932CC911D917B6100E46E41 /* BuffstopToolbox.h */,
 				4932CC921D917B6100E46E41 /* Info.plist */,
 			);
@@ -89,13 +93,6 @@
 			path = BuffstopToolboxTests;
 			sourceTree = "<group>";
 		};
-		4932CCA81D917C1400E46E41 /* RxSwift */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = RxSwift;
-			sourceTree = "<group>";
-		};
 		4932CCA91D917C2200E46E41 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +105,22 @@
 			children = (
 			);
 			name = UIKit;
+			sourceTree = "<group>";
+		};
+		499AF2541D9A8F8B0081477C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				499AF2551D9A8FB90081477C /* CoreDataStack.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		499AF2571D9A905C0081477C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				499AF2581D9A905C0081477C /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +424,7 @@
 		4932CCA61D917B6100E46E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Z3SAL3W4E6;
 				INFOPLIST_FILE = BuffstopToolboxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -422,6 +437,7 @@
 		4932CCA71D917B6100E46E41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Z3SAL3W4E6;
 				INFOPLIST_FILE = BuffstopToolboxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
