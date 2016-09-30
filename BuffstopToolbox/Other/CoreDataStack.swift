@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class CoreDataStack {
+open class CoreDataStack {
     // MARK: - Managed object contexts
     
     /** main context. Use only to read. Can be used from every thread */
@@ -19,7 +19,7 @@ class CoreDataStack {
     
     // MARK: - Object lifecycle
     
-    init(withManagedObjectModelName momdName:String, sqliteStoreName storeName:String, storeBaseUrl baseUrl:URL?) {
+    public init(withManagedObjectModelName momdName:String, sqliteStoreName storeName:String, storeBaseUrl baseUrl:URL?) {
         // This resource is the same name as your xcdatamodeld contained in your project.
         guard let modelURL = Bundle.main.url(forResource: momdName, withExtension:"momd") else {
             fatalError("Error loading model from bundle")
