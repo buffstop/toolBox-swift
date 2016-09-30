@@ -11,6 +11,7 @@
 		4932CC9D1D917B6100E46E41 /* BuffstopToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932CC9C1D917B6100E46E41 /* BuffstopToolboxTests.swift */; };
 		4932CC9F1D917B6100E46E41 /* BuffstopToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4932CC911D917B6100E46E41 /* BuffstopToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2551D9A8FB90081477C /* CoreDataStack.swift */; };
+		499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		4932CC9E1D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		499AF2551D9A8FB90081477C /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = Other/CoreDataStack.swift; sourceTree = "<group>"; };
 		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppGroupHelper.swift; path = Other/AppGroupHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				499AF2551D9A8FB90081477C /* CoreDataStack.swift */,
+				499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */,
+				499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
