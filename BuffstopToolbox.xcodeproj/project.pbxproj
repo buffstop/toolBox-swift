@@ -14,6 +14,7 @@
 		4932CC981D917B6100E46E41 /* BuffstopToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */; };
 		4932CC9D1D917B6100E46E41 /* ObjectInformationHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932CC9C1D917B6100E46E41 /* ObjectInformationHelperTests.swift */; };
 		4932CC9F1D917B6100E46E41 /* BuffstopToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4932CC911D917B6100E46E41 /* BuffstopToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		495145131DA05BCB000D64F5 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495145121DA05BCB000D64F5 /* Logging.swift */; };
 		499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2551D9A8FB90081477C /* CoreDataStack.swift */; };
 		499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		4932CC971D917B6100E46E41 /* BuffstopToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuffstopToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4932CC9C1D917B6100E46E41 /* ObjectInformationHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectInformationHelperTests.swift; sourceTree = "<group>"; };
 		4932CC9E1D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495145121DA05BCB000D64F5 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Other/Logging.swift; sourceTree = "<group>"; };
 		499AF2551D9A8FB90081477C /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = Other/CoreDataStack.swift; sourceTree = "<group>"; };
 		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppGroupHelper.swift; path = Other/AppGroupHelper.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */,
 				491EFC461D9FDF6900D0576F /* ObjectInformationHelper.swift */,
 				491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */,
+				495145121DA05BCB000D64F5 /* Logging.swift */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */,
+				495145131DA05BCB000D64F5 /* Logging.swift in Sources */,
 				491EFC511D9FE40900D0576F /* NSManagedObject+Additions.swift in Sources */,
 				499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */,
 				491EFC471D9FDF6900D0576F /* ObjectInformationHelper.swift in Sources */,
