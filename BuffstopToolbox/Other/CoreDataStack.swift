@@ -13,9 +13,9 @@ open class CoreDataStack {
     // MARK: - Managed object contexts
     
     /** main context. Use only to read. Can be used from every thread */
-    var mainManagedObjectContext: NSManagedObjectContext
+    public private(set) var mainManagedObjectContext: NSManagedObjectContext
     /** write context. Must be used for writes, reads are also allowed though */
-    var privateManagedObjectContext: NSManagedObjectContext
+    public private(set)var privateManagedObjectContext: NSManagedObjectContext
     
     // MARK: - Object lifecycle
     
@@ -65,4 +65,6 @@ open class CoreDataStack {
             fatalError("Error deinitializing main managed object context")
         }
     }
+    
+    //MARK: Other
 }

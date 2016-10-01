@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491EFC471D9FDF6900D0576F /* ObjectInformationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EFC461D9FDF6900D0576F /* ObjectInformationHelper.swift */; };
+		491EFC491D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EFC481D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift */; };
+		491EFC4B1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EFC4A1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift */; };
+		491EFC511D9FE40900D0576F /* NSManagedObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */; };
 		4932CC981D917B6100E46E41 /* BuffstopToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */; };
-		4932CC9D1D917B6100E46E41 /* BuffstopToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932CC9C1D917B6100E46E41 /* BuffstopToolboxTests.swift */; };
+		4932CC9D1D917B6100E46E41 /* ObjectInformationHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932CC9C1D917B6100E46E41 /* ObjectInformationHelperTests.swift */; };
 		4932CC9F1D917B6100E46E41 /* BuffstopToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4932CC911D917B6100E46E41 /* BuffstopToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2551D9A8FB90081477C /* CoreDataStack.swift */; };
 		499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */; };
@@ -25,11 +29,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		491EFC461D9FDF6900D0576F /* ObjectInformationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectInformationHelper.swift; path = Other/ObjectInformationHelper.swift; sourceTree = "<group>"; };
+		491EFC481D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectInformationTestClassSwift.swift; path = TestData/ObjectInformationTestClassSwift.swift; sourceTree = "<group>"; };
+		491EFC4A1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectInformationTestClassNSObject.swift; path = TestData/ObjectInformationTestClassNSObject.swift; sourceTree = "<group>"; };
+		491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+Additions.swift"; path = "Other/NSManagedObject+Additions.swift"; sourceTree = "<group>"; };
 		4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BuffstopToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4932CC911D917B6100E46E41 /* BuffstopToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuffstopToolbox.h; sourceTree = "<group>"; };
 		4932CC921D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4932CC971D917B6100E46E41 /* BuffstopToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuffstopToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4932CC9C1D917B6100E46E41 /* BuffstopToolboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuffstopToolboxTests.swift; sourceTree = "<group>"; };
+		4932CC9C1D917B6100E46E41 /* ObjectInformationHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectInformationHelperTests.swift; sourceTree = "<group>"; };
 		4932CC9E1D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		499AF2551D9A8FB90081477C /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = Other/CoreDataStack.swift; sourceTree = "<group>"; };
 		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -55,6 +63,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491EFC431D9FD9F500D0576F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		491EFC4C1D9FE2EC00D0576F /* Test Data */ = {
+			isa = PBXGroup;
+			children = (
+				491EFC4D1D9FE30D00D0576F /* ObjectInformationHelper Test Classes */,
+			);
+			name = "Test Data";
+			sourceTree = "<group>";
+		};
+		491EFC4D1D9FE30D00D0576F /* ObjectInformationHelper Test Classes */ = {
+			isa = PBXGroup;
+			children = (
+				491EFC481D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift */,
+				491EFC4A1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift */,
+			);
+			name = "ObjectInformationHelper Test Classes";
+			sourceTree = "<group>";
+		};
 		4932CC841D917B6100E46E41 = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +121,9 @@
 		4932CC9B1D917B6100E46E41 /* BuffstopToolboxTests */ = {
 			isa = PBXGroup;
 			children = (
-				4932CC9C1D917B6100E46E41 /* BuffstopToolboxTests.swift */,
+				491EFC4C1D9FE2EC00D0576F /* Test Data */,
+				491EFC431D9FD9F500D0576F /* Helper */,
+				4932CC9C1D917B6100E46E41 /* ObjectInformationHelperTests.swift */,
 				4932CC9E1D917B6100E46E41 /* Info.plist */,
 			);
 			path = BuffstopToolboxTests;
@@ -114,6 +148,8 @@
 			children = (
 				499AF2551D9A8FB90081477C /* CoreDataStack.swift */,
 				499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */,
+				491EFC461D9FDF6900D0576F /* ObjectInformationHelper.swift */,
+				491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -258,7 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */,
+				491EFC511D9FE40900D0576F /* NSManagedObject+Additions.swift in Sources */,
 				499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */,
+				491EFC471D9FDF6900D0576F /* ObjectInformationHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4932CC9D1D917B6100E46E41 /* BuffstopToolboxTests.swift in Sources */,
+				491EFC4B1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift in Sources */,
+				491EFC491D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift in Sources */,
+				4932CC9D1D917B6100E46E41 /* ObjectInformationHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
