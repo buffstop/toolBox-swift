@@ -25,7 +25,6 @@ import Foundation
 /// - parameter file:     The name of the file, defaults to the current file without the ".swift" extension.
 /// - parameter function: The name of the function, defaults to the function within which the call is made.
 /// - parameter line:     The line number, defaults to the line number within the file that the call is made.
-
 public func logInfo<T>(_ object: @autoclosure () -> T, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
     #if DEBUG
         logError(object, file, function, line)
