@@ -10,12 +10,20 @@ import Foundation
 
 class ObjectInformationHelper {
     
-    /// Returns the name of the class of a given object (instance of this class)
+    /// Returns the name of the class of a given object.
     ///
     /// - parameter instance: object to get the class name of
     ///
     /// - returns: name of class
     public static func className(ofObject instance:AnyObject) -> String {
-        return String(describing: type(of: instance))
+        let rawName = String(describing: type(of: instance))
+        
+        if !rawName.contains(".") { // might be "ClassName" or "Module.ClassName"
+            return rawName
+        }
+
+        let split:[String] = rawName.components(separatedBy: ".")
+        
+        return split.last!
     }
 }
