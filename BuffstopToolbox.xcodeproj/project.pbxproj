@@ -15,6 +15,14 @@
 		4932CC9D1D917B6100E46E41 /* ObjectInformationHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932CC9C1D917B6100E46E41 /* ObjectInformationHelperTests.swift */; };
 		4932CC9F1D917B6100E46E41 /* BuffstopToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4932CC911D917B6100E46E41 /* BuffstopToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		495145131DA05BCB000D64F5 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495145121DA05BCB000D64F5 /* Logging.swift */; };
+		495145191DA128F8000D64F5 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495145181DA128F8000D64F5 /* CoreDataHelper.swift */; };
+		495FEB4F1DA12EEA0097FC34 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB4D1DA12EEA0097FC34 /* TestModel.xcdatamodeld */; };
+		495FEB511DA12F600097FC34 /* TestCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB501DA12F600097FC34 /* TestCoreDataStack.swift */; };
+		495FEB551DA130F00097FC34 /* CoreDataHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB541DA130F00097FC34 /* CoreDataHelperTests.swift */; };
+		495FEB581DA133030097FC34 /* TestEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */; };
+		495FEB591DA133030097FC34 /* TestEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB571DA133030097FC34 /* TestEntity+CoreDataProperties.swift */; };
+		495FEB5B1DA13B230097FC34 /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB5A1DA13B230097FC34 /* CommonConstants.swift */; };
+		495FEB601DA16BAE0097FC34 /* PersistentContainer+CustomStorUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB5F1DA16BAE0097FC34 /* PersistentContainer+CustomStorUrl.swift */; };
 		499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2551D9A8FB90081477C /* CoreDataStack.swift */; };
 		499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +41,7 @@
 		491EFC461D9FDF6900D0576F /* ObjectInformationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectInformationHelper.swift; path = Other/ObjectInformationHelper.swift; sourceTree = "<group>"; };
 		491EFC481D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectInformationTestClassSwift.swift; path = TestData/ObjectInformationTestClassSwift.swift; sourceTree = "<group>"; };
 		491EFC4A1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectInformationTestClassNSObject.swift; path = TestData/ObjectInformationTestClassNSObject.swift; sourceTree = "<group>"; };
-		491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+Additions.swift"; path = "Other/NSManagedObject+Additions.swift"; sourceTree = "<group>"; };
+		491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+Additions.swift"; path = "CoreData/NSManagedObject+Additions.swift"; sourceTree = "<group>"; };
 		4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BuffstopToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4932CC911D917B6100E46E41 /* BuffstopToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuffstopToolbox.h; sourceTree = "<group>"; };
 		4932CC921D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,7 +49,15 @@
 		4932CC9C1D917B6100E46E41 /* ObjectInformationHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectInformationHelperTests.swift; sourceTree = "<group>"; };
 		4932CC9E1D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		495145121DA05BCB000D64F5 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Other/Logging.swift; sourceTree = "<group>"; };
-		499AF2551D9A8FB90081477C /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = Other/CoreDataStack.swift; sourceTree = "<group>"; };
+		495145181DA128F8000D64F5 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataHelper.swift; path = CoreData/CoreDataHelper.swift; sourceTree = "<group>"; };
+		495FEB4E1DA12EEA0097FC34 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
+		495FEB501DA12F600097FC34 /* TestCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCoreDataStack.swift; path = Helper/TestCoreDataStack.swift; sourceTree = "<group>"; };
+		495FEB541DA130F00097FC34 /* CoreDataHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataHelperTests.swift; path = Other/CoreDataHelperTests.swift; sourceTree = "<group>"; };
+		495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TestEntity+CoreDataClass.swift"; path = "TestData/CoreData/TestEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		495FEB571DA133030097FC34 /* TestEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TestEntity+CoreDataProperties.swift"; path = "TestData/CoreData/TestEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		495FEB5A1DA13B230097FC34 /* CommonConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonConstants.swift; path = Other/CommonConstants.swift; sourceTree = "<group>"; };
+		495FEB5F1DA16BAE0097FC34 /* PersistentContainer+CustomStorUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PersistentContainer+CustomStorUrl.swift"; path = "CoreData/PersistentContainer+CustomStorUrl.swift"; sourceTree = "<group>"; };
+		499AF2551D9A8FB90081477C /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = CoreData/CoreDataStack.swift; sourceTree = "<group>"; };
 		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppGroupHelper.swift; path = Other/AppGroupHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +84,7 @@
 		491EFC431D9FD9F500D0576F /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				495FEB501DA12F600097FC34 /* TestCoreDataStack.swift */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -75,6 +92,7 @@
 		491EFC4C1D9FE2EC00D0576F /* Test Data */ = {
 			isa = PBXGroup;
 			children = (
+				495FEB4C1DA12ED20097FC34 /* CoreData */,
 				491EFC4D1D9FE30D00D0576F /* ObjectInformationHelper Test Classes */,
 			);
 			name = "Test Data";
@@ -113,6 +131,7 @@
 			children = (
 				4932CCAA1D917C2D00E46E41 /* UIKit */,
 				4932CCA91D917C2200E46E41 /* Foundation */,
+				495FEB5E1DA16B6E0097FC34 /* CoreData */,
 				499AF2541D9A8F8B0081477C /* Other */,
 				4932CC911D917B6100E46E41 /* BuffstopToolbox.h */,
 				4932CC921D917B6100E46E41 /* Info.plist */,
@@ -125,8 +144,8 @@
 			children = (
 				491EFC4C1D9FE2EC00D0576F /* Test Data */,
 				491EFC431D9FD9F500D0576F /* Helper */,
-				4932CC9C1D917B6100E46E41 /* ObjectInformationHelperTests.swift */,
-				4932CC9E1D917B6100E46E41 /* Info.plist */,
+				495FEB521DA130AB0097FC34 /* Other */,
+				495FEB531DA130BA0097FC34 /* Supporting Files */,
 			);
 			path = BuffstopToolboxTests;
 			sourceTree = "<group>";
@@ -145,14 +164,51 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		499AF2541D9A8F8B0081477C /* Other */ = {
+		495FEB4C1DA12ED20097FC34 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */,
+				495FEB571DA133030097FC34 /* TestEntity+CoreDataProperties.swift */,
+				495FEB4D1DA12EEA0097FC34 /* TestModel.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		495FEB521DA130AB0097FC34 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4932CC9C1D917B6100E46E41 /* ObjectInformationHelperTests.swift */,
+				495FEB541DA130F00097FC34 /* CoreDataHelperTests.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		495FEB531DA130BA0097FC34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4932CC9E1D917B6100E46E41 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		495FEB5E1DA16B6E0097FC34 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				499AF2551D9A8FB90081477C /* CoreDataStack.swift */,
+				491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */,
+				495145181DA128F8000D64F5 /* CoreDataHelper.swift */,
+				495FEB5F1DA16BAE0097FC34 /* PersistentContainer+CustomStorUrl.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		499AF2541D9A8F8B0081477C /* Other */ = {
+			isa = PBXGroup;
+			children = (
 				499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */,
 				491EFC461D9FDF6900D0576F /* ObjectInformationHelper.swift */,
-				491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */,
 				495145121DA05BCB000D64F5 /* Logging.swift */,
+				495FEB5A1DA13B230097FC34 /* CommonConstants.swift */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -296,11 +352,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495145191DA128F8000D64F5 /* CoreDataHelper.swift in Sources */,
 				499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */,
+				495FEB5B1DA13B230097FC34 /* CommonConstants.swift in Sources */,
 				495145131DA05BCB000D64F5 /* Logging.swift in Sources */,
 				491EFC511D9FE40900D0576F /* NSManagedObject+Additions.swift in Sources */,
 				499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */,
 				491EFC471D9FDF6900D0576F /* ObjectInformationHelper.swift in Sources */,
+				495FEB601DA16BAE0097FC34 /* PersistentContainer+CustomStorUrl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,8 +368,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				491EFC4B1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift in Sources */,
+				495FEB511DA12F600097FC34 /* TestCoreDataStack.swift in Sources */,
+				495FEB551DA130F00097FC34 /* CoreDataHelperTests.swift in Sources */,
 				491EFC491D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift in Sources */,
+				495FEB581DA133030097FC34 /* TestEntity+CoreDataClass.swift in Sources */,
 				4932CC9D1D917B6100E46E41 /* ObjectInformationHelperTests.swift in Sources */,
+				495FEB591DA133030097FC34 /* TestEntity+CoreDataProperties.swift in Sources */,
+				495FEB4F1DA12EEA0097FC34 /* TestModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +590,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		495FEB4D1DA12EEA0097FC34 /* TestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				495FEB4E1DA12EEA0097FC34 /* TestModel.xcdatamodel */,
+			);
+			currentVersion = 495FEB4E1DA12EEA0097FC34 /* TestModel.xcdatamodel */;
+			name = TestModel.xcdatamodeld;
+			path = TestData/CoreData/TestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4932CC851D917B6100E46E41 /* Project object */;
 }
