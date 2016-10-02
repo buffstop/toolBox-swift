@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ObjectInformationHelper {
+public class ObjectInformationHelper {
     
     /// Returns the name of the class of a given object.
     ///
