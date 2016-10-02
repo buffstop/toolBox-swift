@@ -27,7 +27,12 @@ import Foundation
 /// - parameter line:     The line number, defaults to the line number within the file that the call is made.
 public func logInfo<T>(_ object: @autoclosure () -> T, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
     #if DEBUG
-        logError(object, file, function, line)
+        let value = object()
+        let fileURL = NSURL(string: file)?.lastPathComponent ?? "Unknown file"
+        let queue = Thread.isMainThread ? "MAIN_THREAD" : "BACKGROUD_THREAD"
+        let message = "ℹ️ " + String(reflecting: value)
+        
+        print("<\(queue)> \(fileURL) \(function)[\(line)]: " + message)
     #endif
 }
 
@@ -54,7 +59,8 @@ public func logError<T>(_ object: @autoclosure () -> T, _ file: String = #file, 
         let value = object()
         let fileURL = NSURL(string: file)?.lastPathComponent ?? "Unknown file"
         let queue = Thread.isMainThread ? "MAIN_THREAD" : "BACKGROUD_THREAD"
-        
-        print("<\(queue)> \(fileURL) \(function)[\(line)]: " + String(reflecting: value))
+        let message = "🔥 " + String(reflecting: value)
+    
+        print("<\(queue)> \(fileURL) \(function)[\(line)]: " + message)
 }
 
