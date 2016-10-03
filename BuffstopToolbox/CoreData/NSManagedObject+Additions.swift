@@ -16,4 +16,10 @@ public extension NSManagedObject {
         }
     }
     
+    static public func uniqueID() -> String {
+        let uuid = UUID().uuidString
+        let dateString = "\(Date().timeIntervalSince1970)"
+        
+        return uuid + ":" + dateString
+    }
 }
