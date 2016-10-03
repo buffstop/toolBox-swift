@@ -16,9 +16,13 @@ public class CoreDataHelper {
             let fetchRequest = T.fetchRequest()
             do {
                 let fetchResult = try fetchRequest.execute() as! [T]
-                completionHandler(fetchResult, nil) //->
+                DispatchQueue.main.async {
+                    completionHandler(fetchResult, nil) //->
+                }
             } catch {
-                completionHandler(nil, error) //->
+                DispatchQueue.main.async {
+                    completionHandler(nil, error) //->
+                }
             }
         }
     }
