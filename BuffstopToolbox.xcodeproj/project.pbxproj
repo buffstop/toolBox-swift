@@ -23,7 +23,6 @@
 		495FEB581DA133030097FC34 /* TestEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */; };
 		495FEB591DA133030097FC34 /* TestEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB571DA133030097FC34 /* TestEntity+CoreDataProperties.swift */; };
 		495FEB5B1DA13B230097FC34 /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB5A1DA13B230097FC34 /* CommonConstants.swift */; };
-		495FEB601DA16BAE0097FC34 /* PersistentContainer+CustomStorUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB5F1DA16BAE0097FC34 /* PersistentContainer+CustomStorUrl.swift */; };
 		499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2551D9A8FB90081477C /* CoreDataStack.swift */; };
 		499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TestEntity+CoreDataClass.swift"; path = "TestData/CoreData/TestEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		495FEB571DA133030097FC34 /* TestEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TestEntity+CoreDataProperties.swift"; path = "TestData/CoreData/TestEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		495FEB5A1DA13B230097FC34 /* CommonConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonConstants.swift; path = Other/CommonConstants.swift; sourceTree = "<group>"; };
-		495FEB5F1DA16BAE0097FC34 /* PersistentContainer+CustomStorUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PersistentContainer+CustomStorUrl.swift"; path = "CoreData/PersistentContainer+CustomStorUrl.swift"; sourceTree = "<group>"; };
 		499AF2551D9A8FB90081477C /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = CoreData/CoreDataStack.swift; sourceTree = "<group>"; };
 		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppGroupHelper.swift; path = Other/AppGroupHelper.swift; sourceTree = "<group>"; };
@@ -208,7 +206,6 @@
 				499AF2551D9A8FB90081477C /* CoreDataStack.swift */,
 				491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */,
 				495145181DA128F8000D64F5 /* CoreDataHelper.swift */,
-				495FEB5F1DA16BAE0097FC34 /* PersistentContainer+CustomStorUrl.swift */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -370,7 +367,6 @@
 				491EFC511D9FE40900D0576F /* NSManagedObject+Additions.swift in Sources */,
 				499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */,
 				491EFC471D9FDF6900D0576F /* ObjectInformationHelper.swift in Sources */,
-				495FEB601DA16BAE0097FC34 /* PersistentContainer+CustomStorUrl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

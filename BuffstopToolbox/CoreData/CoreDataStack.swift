@@ -9,7 +9,7 @@
 import CoreData
 
 open class CoreDataStack {
-    public private(set) var persistentContainer: PersistentContainer
+    public private(set) var persistentContainer: NSPersistentContainer
     
     // MARK: Life Cycle
     
@@ -22,8 +22,12 @@ open class CoreDataStack {
         guard let mom = NSManagedObjectModel(contentsOf: modelURL) else {
             fatalError("Error initializing mom from: \(modelURL)")
         }
-        
-        persistentContainer = PersistentContainer(name: "", managedObjectModel: mom, customStoreDirectory: baseUrl)
+
+        persistentContainer = NSPersistentContainer(name: momdName, managedObjectModel: mom)
+        if baseUrl != nil {
+            let description = NSPersistentStoreDescription(url: baseUrl!)
+            persistentContainer.persistentStoreDescriptions = [description]
+        }
         persistentContainer.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error {
                 fatalError("Unresolved error \(error)")
