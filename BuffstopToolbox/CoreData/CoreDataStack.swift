@@ -44,8 +44,15 @@ open class CoreDataStack {
         return persistentContainer.viewContext
     }
     
-    public func newBackgroundContext() -> NSManagedObjectContext {
-        return persistentContainer.newBackgroundContext()
+    /// Returns a new background context by forwarding call to `NSPersistentContainer.newBackgroundContext()` plus setting the given options.
+    ///
+    /// - parameter enableAutoMerge: whether or not to automatically merges changes from parent context. Defaults to `true`.
+    ///
+    /// - returns: background context
+    public func newBackgroundContext(automaticallyMergesChangesFromParent enableAutoMerge: Bool = true) -> NSManagedObjectContext {
+        let moc = persistentContainer.newBackgroundContext()
+        moc.automaticallyMergesChangesFromParent = enableAutoMerge
+        return moc
     }
     
     // MAKR: Other
