@@ -24,10 +24,13 @@ open class CoreDataStack {
         }
 
         persistentContainer = NSPersistentContainer(name: momdName, managedObjectModel: mom)
-        if baseUrl != nil {
-            let description = NSPersistentStoreDescription(url: baseUrl!)
-            persistentContainer.persistentStoreDescriptions = [description]
-        }
+        
+        //FIXME: we ignore the base URL in the moment. Background: the commented approach works only, if a .sqlite file already exists, not when initializing the stack the first time.
+        
+//        if baseUrl != nil {
+//            let description = NSPersistentStoreDescription(url: baseUrl!)
+//            persistentContainer.persistentStoreDescriptions = [description]
+//        }
         persistentContainer.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error {
                 fatalError("Unresolved error \(error)")
