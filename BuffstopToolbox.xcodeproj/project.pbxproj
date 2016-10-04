@@ -23,6 +23,7 @@
 		495FEB581DA133030097FC34 /* TestEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */; };
 		495FEB591DA133030097FC34 /* TestEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB571DA133030097FC34 /* TestEntity+CoreDataProperties.swift */; };
 		495FEB5B1DA13B230097FC34 /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB5A1DA13B230097FC34 /* CommonConstants.swift */; };
+		498954A81DA3D6AA0020B848 /* CoreDataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */; };
 		499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2551D9A8FB90081477C /* CoreDataStack.swift */; };
 		499AF2641D9AD5FB0081477C /* AppGroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TestEntity+CoreDataClass.swift"; path = "TestData/CoreData/TestEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		495FEB571DA133030097FC34 /* TestEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TestEntity+CoreDataProperties.swift"; path = "TestData/CoreData/TestEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		495FEB5A1DA13B230097FC34 /* CommonConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonConstants.swift; path = Other/CommonConstants.swift; sourceTree = "<group>"; };
+		498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStackTests.swift; path = CoreData/CoreDataStackTests.swift; sourceTree = "<group>"; };
 		499AF2551D9A8FB90081477C /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = CoreData/CoreDataStack.swift; sourceTree = "<group>"; };
 		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		499AF2631D9AD5FB0081477C /* AppGroupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppGroupHelper.swift; path = Other/AppGroupHelper.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				492865291DA19E6500A3D8AD /* CoreDataHelperTests.swift */,
 				492865271DA19E1C00A3D8AD /* NSManagedObject+AdditionsTests.swift */,
+				498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				4932CC9D1D917B6100E46E41 /* Other in Sources */,
 				4928652A1DA19E6500A3D8AD /* CoreDataHelperTests.swift in Sources */,
 				495FEB591DA133030097FC34 /* TestEntity+CoreDataProperties.swift in Sources */,
+				498954A81DA3D6AA0020B848 /* CoreDataStackTests.swift in Sources */,
 				495FEB4F1DA12EEA0097FC34 /* TestModel.xcdatamodeld in Sources */,
 				492865281DA19E1C00A3D8AD /* NSManagedObject+AdditionsTests.swift in Sources */,
 			);
