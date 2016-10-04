@@ -8,4 +8,4 @@
 
 import Foundation
 
-let xcTestCaseDefaultTimeout = 0.5
+public let xcTestCaseDefaultTimeout = 0.5
