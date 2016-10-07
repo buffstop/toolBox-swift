@@ -8,14 +8,14 @@
 
 import Foundation
 
+public enum CustomConstrains {
+    case FullSizeInSuperview
+}
+
 public extension UIView {
-    
-    public enum Constrains {
-        case FullSizeInSuperview
-    }
-    
+
     //MARK: - PUBLIC API
-    public func addConstraints(_ constraints: Constrains) {
+    public func addConstraints(_ constraints: CustomConstrains) {
         switch constraints {
         case .FullSizeInSuperview:
             self.fullSizeInSuperview()
