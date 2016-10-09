@@ -13,6 +13,7 @@
 		491EFC511D9FE40900D0576F /* NSManagedObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */; };
 		492865281DA19E1C00A3D8AD /* NSManagedObject+AdditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492865271DA19E1C00A3D8AD /* NSManagedObject+AdditionsTests.swift */; };
 		4928652A1DA19E6500A3D8AD /* CoreDataHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492865291DA19E6500A3D8AD /* CoreDataHelperTests.swift */; };
+		492E508F1DAA7EA200D78B55 /* PropertyListHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E508E1DAA7EA200D78B55 /* PropertyListHelper.swift */; };
 		4932CC981D917B6100E46E41 /* BuffstopToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */; };
 		4932CC9D1D917B6100E46E41 /* Other in Sources */ = {isa = PBXBuildFile; fileRef = 4932CC9C1D917B6100E46E41 /* Other */; };
 		4932CC9F1D917B6100E46E41 /* BuffstopToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4932CC911D917B6100E46E41 /* BuffstopToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +47,7 @@
 		491EFC501D9FE40900D0576F /* NSManagedObject+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+Additions.swift"; path = "CoreData/NSManagedObject+Additions.swift"; sourceTree = "<group>"; };
 		492865271DA19E1C00A3D8AD /* NSManagedObject+AdditionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+AdditionsTests.swift"; path = "CoreData/NSManagedObject+AdditionsTests.swift"; sourceTree = "<group>"; };
 		492865291DA19E6500A3D8AD /* CoreDataHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataHelperTests.swift; path = CoreData/CoreDataHelperTests.swift; sourceTree = "<group>"; };
+		492E508E1DAA7EA200D78B55 /* PropertyListHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertyListHelper.swift; path = Other/PropertyListHelper.swift; sourceTree = "<group>"; };
 		4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BuffstopToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4932CC911D917B6100E46E41 /* BuffstopToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuffstopToolbox.h; sourceTree = "<group>"; };
 		4932CC921D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 				491EFC461D9FDF6900D0576F /* ObjectInformationHelper.swift */,
 				495145121DA05BCB000D64F5 /* Logging.swift */,
 				495FEB5A1DA13B230097FC34 /* CommonConstants.swift */,
+				492E508E1DAA7EA200D78B55 /* PropertyListHelper.swift */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 			files = (
 				495145191DA128F8000D64F5 /* CoreDataHelper.swift in Sources */,
 				499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */,
+				492E508F1DAA7EA200D78B55 /* PropertyListHelper.swift in Sources */,
 				495FEB5B1DA13B230097FC34 /* CommonConstants.swift in Sources */,
 				495145131DA05BCB000D64F5 /* Logging.swift in Sources */,
 				491EFC511D9FE40900D0576F /* NSManagedObject+Additions.swift in Sources */,
