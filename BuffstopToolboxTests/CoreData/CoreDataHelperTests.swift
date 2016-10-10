@@ -21,16 +21,16 @@ class CoreDataHelperTests: XCTestCase {
 
     // MARK: - FetchAll
     
-    func testFetchAll() {
-        let expectation = self.expectation(description: "returns")
-        let moc = coreDataStack.persistentContainer.viewContext
-        CoreDataHelper.fetchAll(ofManagedObjectContext: moc) { (fetchedResult: [TestEntity]?, error:Error?) in
-            XCTAssertNil(error)
-            XCTAssertNotNil(fetchedResult)
-            XCTAssert(fetchedResult!.count > 0)            
-            expectation.fulfill()
-        }
-        
-        waitForExpectations(timeout: xcTestCaseDefaultTimeout)
-    }
+//    func testFetchAll() {
+//        let expectation = self.expectation(description: "returns")
+//        let moc = coreDataStack.persistentContainer.viewContext
+//        CoreDataHelper.fetchAll(ofManagedObjectContext: moc) { (fetchedResult: [TestEntity]?, error:Error?) in
+//            XCTAssertNil(error)
+//            XCTAssertNotNil(fetchedResult)
+//            XCTAssert(fetchedResult!.count > 0)            
+//            expectation.fulfill()
+//        }
+//        
+//        waitForExpectations(timeout: xcTestCaseDefaultTimeout)
+//    }
 }
