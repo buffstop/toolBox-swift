@@ -26,6 +26,7 @@
 		492E50E61DAC149400D78B55 /* ObjectInformationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E50E01DAC149400D78B55 /* ObjectInformationHelper.swift */; };
 		492E50E71DAC149400D78B55 /* PropertyListHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E50E11DAC149400D78B55 /* PropertyListHelper.swift */; };
 		492E50E91DAC14FE00D78B55 /* UnicodeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E50E81DAC14FE00D78B55 /* UnicodeConverter.swift */; };
+		492E50EB1DAC2A6100D78B55 /* UIView+Inspectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E50EA1DAC2A6100D78B55 /* UIView+Inspectables.swift */; };
 		4932CC981D917B6100E46E41 /* BuffstopToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */; };
 		4932CC9F1D917B6100E46E41 /* BuffstopToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4932CC911D917B6100E46E41 /* BuffstopToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		495145191DA128F8000D64F5 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495145181DA128F8000D64F5 /* CoreDataHelper.swift */; };
@@ -69,6 +70,7 @@
 		492E50E01DAC149400D78B55 /* ObjectInformationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectInformationHelper.swift; sourceTree = "<group>"; };
 		492E50E11DAC149400D78B55 /* PropertyListHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListHelper.swift; sourceTree = "<group>"; };
 		492E50E81DAC14FE00D78B55 /* UnicodeConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeConverter.swift; sourceTree = "<group>"; };
+		492E50EA1DAC2A6100D78B55 /* UIView+Inspectables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Inspectables.swift"; path = "UIKit/UIView+Inspectables.swift"; sourceTree = "<group>"; };
 		4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BuffstopToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4932CC911D917B6100E46E41 /* BuffstopToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuffstopToolbox.h; sourceTree = "<group>"; };
 		4932CC921D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				498850581DA566430028D647 /* UIView+AutoLayout.swift */,
+				492E50EA1DAC2A6100D78B55 /* UIView+Inspectables.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				492E50E41DAC149400D78B55 /* CommonErrors.swift in Sources */,
 				492E50E51DAC149400D78B55 /* Logging.swift in Sources */,
 				495145191DA128F8000D64F5 /* CoreDataHelper.swift in Sources */,
+				492E50EB1DAC2A6100D78B55 /* UIView+Inspectables.swift in Sources */,
 				499AF2561D9A8FB90081477C /* CoreDataStack.swift in Sources */,
 				491EFC511D9FE40900D0576F /* NSManagedObject+Additions.swift in Sources */,
 				492E50E91DAC14FE00D78B55 /* UnicodeConverter.swift in Sources */,
