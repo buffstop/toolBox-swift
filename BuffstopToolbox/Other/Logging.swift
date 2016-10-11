@@ -30,9 +30,9 @@ public func logInfo<T>(_ object: @autoclosure () -> T, _ file: String = #file, _
         let value = object()
         let fileURL = NSURL(string: file)?.lastPathComponent ?? "Unknown file"
         let queue = Thread.isMainThread ? "MAIN_THREAD" : "BACKGROUD_THREAD"
-        let message = "ℹ️ " + String(reflecting: value)
+        let message =  String(reflecting: value)
         
-        print("<\(queue)> \(fileURL) \(function)[\(line)]: " + message)
+        print("ℹ️ " + "<\(queue)> \(fileURL) \(function)[\(line)]: " + message)
     #endif
 }
 
