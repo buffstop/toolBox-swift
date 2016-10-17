@@ -15,7 +15,7 @@ public enum CustomConstrains {
 public extension UIView {
 
     //MARK: - PUBLIC API
-    public func addConstraints(_ constraints: CustomConstrains) {
+    public func addCustomConstraints(_ constraints: CustomConstrains) {
         switch constraints {
         case .FullSizeInSuperview:
             self.fullSizeInSuperview()
