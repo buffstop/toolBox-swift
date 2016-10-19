@@ -22,21 +22,21 @@
 		495FEB511DA12F600097FC34 /* TestCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB501DA12F600097FC34 /* TestCoreDataStack.swift */; };
 		495FEB581DA133030097FC34 /* TestEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */; };
 		495FEB591DA133030097FC34 /* TestEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB571DA133030097FC34 /* TestEntity+CoreDataProperties.swift */; };
-		497AFE0A1DB687B900F22CA1 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFDF71DB687B900F22CA1 /* CoreDataHelper.swift */; };
-		497AFE0B1DB687B900F22CA1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFDF81DB687B900F22CA1 /* CoreDataStack.swift */; };
-		497AFE0C1DB687B900F22CA1 /* NSManagedObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFDF91DB687B900F22CA1 /* NSManagedObject+Additions.swift */; };
-		497AFE0D1DB687B900F22CA1 /* String+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFDFB1DB687B900F22CA1 /* String+Unicode.swift */; };
-		497AFE0E1DB687B900F22CA1 /* MSSticker+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFDFD1DB687B900F22CA1 /* MSSticker+Additions.swift */; };
-		497AFE0F1DB687B900F22CA1 /* AppGroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFDFF1DB687B900F22CA1 /* AppGroupHelper.swift */; };
-		497AFE101DB687B900F22CA1 /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFE001DB687B900F22CA1 /* CommonConstants.swift */; };
-		497AFE111DB687B900F22CA1 /* CommonErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFE011DB687B900F22CA1 /* CommonErrors.swift */; };
-		497AFE121DB687B900F22CA1 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFE021DB687B900F22CA1 /* Logging.swift */; };
-		497AFE131DB687B900F22CA1 /* ObjectInformationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFE031DB687B900F22CA1 /* ObjectInformationHelper.swift */; };
-		497AFE141DB687B900F22CA1 /* PropertyListHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFE041DB687B900F22CA1 /* PropertyListHelper.swift */; };
-		497AFE151DB687B900F22CA1 /* UnicodeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFE051DB687B900F22CA1 /* UnicodeConverter.swift */; };
-		497AFE161DB687B900F22CA1 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFE071DB687B900F22CA1 /* UIView+AutoLayout.swift */; };
-		497AFE171DB687B900F22CA1 /* UIView+Inspectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFE081DB687B900F22CA1 /* UIView+Inspectables.swift */; };
-		497AFE181DB687B900F22CA1 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AFE091DB687B900F22CA1 /* UIViewController+Additions.swift */; };
+		4971A1771DB7C55800628383 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1631DB7C55800628383 /* CoreDataHelper.swift */; };
+		4971A1781DB7C55800628383 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1641DB7C55800628383 /* CoreDataStack.swift */; };
+		4971A1791DB7C55800628383 /* NSManagedObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1651DB7C55800628383 /* NSManagedObject+Additions.swift */; };
+		4971A17A1DB7C55800628383 /* String+Unicode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1671DB7C55800628383 /* String+Unicode.swift */; };
+		4971A17B1DB7C55800628383 /* MSSticker+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1691DB7C55800628383 /* MSSticker+Additions.swift */; };
+		4971A17C1DB7C55800628383 /* AppGroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A16B1DB7C55800628383 /* AppGroupHelper.swift */; };
+		4971A17D1DB7C55800628383 /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A16C1DB7C55800628383 /* CommonConstants.swift */; };
+		4971A17E1DB7C55800628383 /* CommonErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A16D1DB7C55800628383 /* CommonErrors.swift */; };
+		4971A17F1DB7C55800628383 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A16E1DB7C55800628383 /* Logging.swift */; };
+		4971A1801DB7C55800628383 /* ObjectInformationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A16F1DB7C55800628383 /* ObjectInformationHelper.swift */; };
+		4971A1811DB7C55800628383 /* PropertyListHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1701DB7C55800628383 /* PropertyListHelper.swift */; };
+		4971A1821DB7C55800628383 /* UnicodeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1711DB7C55800628383 /* UnicodeConverter.swift */; };
+		4971A1831DB7C55800628383 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1731DB7C55800628383 /* UIView+AutoLayout.swift */; };
+		4971A1841DB7C55800628383 /* UIView+Inspectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1741DB7C55800628383 /* UIView+Inspectables.swift */; };
+		4971A1851DB7C55800628383 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1751DB7C55800628383 /* UIViewController+Additions.swift */; };
 		498954A81DA3D6AA0020B848 /* CoreDataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,21 +70,21 @@
 		495FEB501DA12F600097FC34 /* TestCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCoreDataStack.swift; path = Helper/TestCoreDataStack.swift; sourceTree = "<group>"; };
 		495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TestEntity+CoreDataClass.swift"; path = "TestData/CoreData/TestEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		495FEB571DA133030097FC34 /* TestEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TestEntity+CoreDataProperties.swift"; path = "TestData/CoreData/TestEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		497AFDF71DB687B900F22CA1 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
-		497AFDF81DB687B900F22CA1 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
-		497AFDF91DB687B900F22CA1 /* NSManagedObject+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+Additions.swift"; sourceTree = "<group>"; };
-		497AFDFB1DB687B900F22CA1 /* String+Unicode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Unicode.swift"; sourceTree = "<group>"; };
-		497AFDFD1DB687B900F22CA1 /* MSSticker+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MSSticker+Additions.swift"; sourceTree = "<group>"; };
-		497AFDFF1DB687B900F22CA1 /* AppGroupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGroupHelper.swift; sourceTree = "<group>"; };
-		497AFE001DB687B900F22CA1 /* CommonConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonConstants.swift; sourceTree = "<group>"; };
-		497AFE011DB687B900F22CA1 /* CommonErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonErrors.swift; sourceTree = "<group>"; };
-		497AFE021DB687B900F22CA1 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
-		497AFE031DB687B900F22CA1 /* ObjectInformationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectInformationHelper.swift; sourceTree = "<group>"; };
-		497AFE041DB687B900F22CA1 /* PropertyListHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListHelper.swift; sourceTree = "<group>"; };
-		497AFE051DB687B900F22CA1 /* UnicodeConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeConverter.swift; sourceTree = "<group>"; };
-		497AFE071DB687B900F22CA1 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
-		497AFE081DB687B900F22CA1 /* UIView+Inspectables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Inspectables.swift"; sourceTree = "<group>"; };
-		497AFE091DB687B900F22CA1 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
+		4971A1631DB7C55800628383 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		4971A1641DB7C55800628383 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		4971A1651DB7C55800628383 /* NSManagedObject+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+Additions.swift"; sourceTree = "<group>"; };
+		4971A1671DB7C55800628383 /* String+Unicode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Unicode.swift"; sourceTree = "<group>"; };
+		4971A1691DB7C55800628383 /* MSSticker+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MSSticker+Additions.swift"; sourceTree = "<group>"; };
+		4971A16B1DB7C55800628383 /* AppGroupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGroupHelper.swift; sourceTree = "<group>"; };
+		4971A16C1DB7C55800628383 /* CommonConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonConstants.swift; sourceTree = "<group>"; };
+		4971A16D1DB7C55800628383 /* CommonErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonErrors.swift; sourceTree = "<group>"; };
+		4971A16E1DB7C55800628383 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		4971A16F1DB7C55800628383 /* ObjectInformationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectInformationHelper.swift; sourceTree = "<group>"; };
+		4971A1701DB7C55800628383 /* PropertyListHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListHelper.swift; sourceTree = "<group>"; };
+		4971A1711DB7C55800628383 /* UnicodeConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeConverter.swift; sourceTree = "<group>"; };
+		4971A1731DB7C55800628383 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		4971A1741DB7C55800628383 /* UIView+Inspectables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Inspectables.swift"; sourceTree = "<group>"; };
+		4971A1751DB7C55800628383 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
 		498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStackTests.swift; path = CoreData/CoreDataStackTests.swift; sourceTree = "<group>"; };
 		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -193,11 +193,12 @@
 		4932CC901D917B6100E46E41 /* BuffstopToolbox */ = {
 			isa = PBXGroup;
 			children = (
-				497AFE061DB687B900F22CA1 /* UIKit */,
-				497AFDFA1DB687B900F22CA1 /* Foundation */,
-				497AFDF61DB687B900F22CA1 /* CoreData */,
-				497AFDFC1DB687B900F22CA1 /* Messages */,
-				497AFDFE1DB687B900F22CA1 /* Other */,
+				4971A1601DB7C55800628383 /* Components */,
+				4971A1621DB7C55800628383 /* CoreData */,
+				4971A1661DB7C55800628383 /* Foundation */,
+				4971A1681DB7C55800628383 /* Messages */,
+				4971A16A1DB7C55800628383 /* Other */,
+				4971A1721DB7C55800628383 /* UIKit */,
 				4932CC911D917B6100E46E41 /* BuffstopToolbox.h */,
 				4932CC921D917B6100E46E41 /* Info.plist */,
 			);
@@ -244,52 +245,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		497AFDF61DB687B900F22CA1 /* CoreData */ = {
+		4971A1601DB7C55800628383 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				497AFDF71DB687B900F22CA1 /* CoreDataHelper.swift */,
-				497AFDF81DB687B900F22CA1 /* CoreDataStack.swift */,
-				497AFDF91DB687B900F22CA1 /* NSManagedObject+Additions.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4971A1621DB7C55800628383 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4971A1631DB7C55800628383 /* CoreDataHelper.swift */,
+				4971A1641DB7C55800628383 /* CoreDataStack.swift */,
+				4971A1651DB7C55800628383 /* NSManagedObject+Additions.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
 		};
-		497AFDFA1DB687B900F22CA1 /* Foundation */ = {
+		4971A1661DB7C55800628383 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				497AFDFB1DB687B900F22CA1 /* String+Unicode.swift */,
+				4971A1671DB7C55800628383 /* String+Unicode.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
 		};
-		497AFDFC1DB687B900F22CA1 /* Messages */ = {
+		4971A1681DB7C55800628383 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
-				497AFDFD1DB687B900F22CA1 /* MSSticker+Additions.swift */,
+				4971A1691DB7C55800628383 /* MSSticker+Additions.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
 		};
-		497AFDFE1DB687B900F22CA1 /* Other */ = {
+		4971A16A1DB7C55800628383 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				497AFDFF1DB687B900F22CA1 /* AppGroupHelper.swift */,
-				497AFE001DB687B900F22CA1 /* CommonConstants.swift */,
-				497AFE011DB687B900F22CA1 /* CommonErrors.swift */,
-				497AFE021DB687B900F22CA1 /* Logging.swift */,
-				497AFE031DB687B900F22CA1 /* ObjectInformationHelper.swift */,
-				497AFE041DB687B900F22CA1 /* PropertyListHelper.swift */,
-				497AFE051DB687B900F22CA1 /* UnicodeConverter.swift */,
+				4971A16B1DB7C55800628383 /* AppGroupHelper.swift */,
+				4971A16C1DB7C55800628383 /* CommonConstants.swift */,
+				4971A16D1DB7C55800628383 /* CommonErrors.swift */,
+				4971A16E1DB7C55800628383 /* Logging.swift */,
+				4971A16F1DB7C55800628383 /* ObjectInformationHelper.swift */,
+				4971A1701DB7C55800628383 /* PropertyListHelper.swift */,
+				4971A1711DB7C55800628383 /* UnicodeConverter.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		497AFE061DB687B900F22CA1 /* UIKit */ = {
+		4971A1721DB7C55800628383 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				497AFE071DB687B900F22CA1 /* UIView+AutoLayout.swift */,
-				497AFE081DB687B900F22CA1 /* UIView+Inspectables.swift */,
-				497AFE091DB687B900F22CA1 /* UIViewController+Additions.swift */,
+				4971A1731DB7C55800628383 /* UIView+AutoLayout.swift */,
+				4971A1741DB7C55800628383 /* UIView+Inspectables.swift */,
+				4971A1751DB7C55800628383 /* UIViewController+Additions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -436,21 +444,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				497AFE0D1DB687B900F22CA1 /* String+Unicode.swift in Sources */,
-				497AFE0A1DB687B900F22CA1 /* CoreDataHelper.swift in Sources */,
-				497AFE101DB687B900F22CA1 /* CommonConstants.swift in Sources */,
-				497AFE171DB687B900F22CA1 /* UIView+Inspectables.swift in Sources */,
-				497AFE111DB687B900F22CA1 /* CommonErrors.swift in Sources */,
-				497AFE0E1DB687B900F22CA1 /* MSSticker+Additions.swift in Sources */,
-				497AFE0F1DB687B900F22CA1 /* AppGroupHelper.swift in Sources */,
-				497AFE0C1DB687B900F22CA1 /* NSManagedObject+Additions.swift in Sources */,
-				497AFE181DB687B900F22CA1 /* UIViewController+Additions.swift in Sources */,
-				497AFE161DB687B900F22CA1 /* UIView+AutoLayout.swift in Sources */,
-				497AFE121DB687B900F22CA1 /* Logging.swift in Sources */,
-				497AFE151DB687B900F22CA1 /* UnicodeConverter.swift in Sources */,
-				497AFE0B1DB687B900F22CA1 /* CoreDataStack.swift in Sources */,
-				497AFE141DB687B900F22CA1 /* PropertyListHelper.swift in Sources */,
-				497AFE131DB687B900F22CA1 /* ObjectInformationHelper.swift in Sources */,
+				4971A17E1DB7C55800628383 /* CommonErrors.swift in Sources */,
+				4971A17F1DB7C55800628383 /* Logging.swift in Sources */,
+				4971A1781DB7C55800628383 /* CoreDataStack.swift in Sources */,
+				4971A1831DB7C55800628383 /* UIView+AutoLayout.swift in Sources */,
+				4971A1851DB7C55800628383 /* UIViewController+Additions.swift in Sources */,
+				4971A1791DB7C55800628383 /* NSManagedObject+Additions.swift in Sources */,
+				4971A1771DB7C55800628383 /* CoreDataHelper.swift in Sources */,
+				4971A17B1DB7C55800628383 /* MSSticker+Additions.swift in Sources */,
+				4971A1801DB7C55800628383 /* ObjectInformationHelper.swift in Sources */,
+				4971A1811DB7C55800628383 /* PropertyListHelper.swift in Sources */,
+				4971A17A1DB7C55800628383 /* String+Unicode.swift in Sources */,
+				4971A17D1DB7C55800628383 /* CommonConstants.swift in Sources */,
+				4971A1821DB7C55800628383 /* UnicodeConverter.swift in Sources */,
+				4971A17C1DB7C55800628383 /* AppGroupHelper.swift in Sources */,
+				4971A1841DB7C55800628383 /* UIView+Inspectables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
