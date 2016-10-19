@@ -25,7 +25,7 @@ public extension UIView {
     
     //MARK: - OTHER
     
-    fileprivate func fullSizeInSuperview() {
+    private func fullSizeInSuperview() {
         guard let superview = self.superview else {
             logError("superview is nil?")
             #if DEBUG

@@ -44,7 +44,7 @@ public extension String {
     
     // MARK: - HELPER
     
-    fileprivate static func toUnicodeCharacter(fromRepresentation convertee: String, usingRegexPattern pattern: UnicodeConverterPattern) -> String {
+    private static func toUnicodeCharacter(fromRepresentation convertee: String, usingRegexPattern pattern: UnicodeConverterPattern) -> String {
         let unicodeConverter = try! UnicodeConverter(pattern: pattern.rawValue)
         let result = unicodeConverter.stringByReplacingMatches(in: convertee, range: NSRange(0..<convertee.utf16.count), withTemplate: "???")
         
