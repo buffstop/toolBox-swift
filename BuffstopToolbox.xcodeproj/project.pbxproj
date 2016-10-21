@@ -38,6 +38,8 @@
 		4971A1841DB7C55800628383 /* UIView+Inspectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1741DB7C55800628383 /* UIView+Inspectables.swift */; };
 		4971A1851DB7C55800628383 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1751DB7C55800628383 /* UIViewController+Additions.swift */; };
 		498954A81DA3D6AA0020B848 /* CoreDataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */; };
+		49E5EA281DBA3D5A00204325 /* UIView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */; };
+		49E5EA451DBA550400204325 /* UIKit+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA441DBA550400204325 /* UIKit+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,18 @@
 			remoteInfo = BuffstopToolbox;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49E5EA391DBA4E7800204325 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		491EFC481D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectInformationTestClassSwift.swift; path = TestData/ObjectInformationTestClassSwift.swift; sourceTree = "<group>"; };
@@ -87,6 +101,10 @@
 		4971A1751DB7C55800628383 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
 		498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStackTests.swift; path = CoreData/CoreDataStackTests.swift; sourceTree = "<group>"; };
 		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Convenience.swift"; sourceTree = "<group>"; };
+		49E5EA351DBA4E3600204325 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../../Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		49E5EA361DBA4E3600204325 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = ../../Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		49E5EA441DBA550400204325 /* UIKit+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIKit+Convenience.swift"; path = "UIKit/UIKit+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +226,7 @@
 		4932CC9B1D917B6100E46E41 /* BuffstopToolboxTests */ = {
 			isa = PBXGroup;
 			children = (
+				49E5EA291DBA3E1B00204325 /* UIKit */,
 				491EFC4C1D9FE2EC00D0576F /* Test Data */,
 				491EFC431D9FD9F500D0576F /* Helper */,
 				492E50C81DABB78D00D78B55 /* Foundation */,
@@ -298,6 +317,7 @@
 				4971A1731DB7C55800628383 /* UIView+AutoLayout.swift */,
 				4971A1741DB7C55800628383 /* UIView+Inspectables.swift */,
 				4971A1751DB7C55800628383 /* UIViewController+Additions.swift */,
+				49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -305,10 +325,20 @@
 		499AF2571D9A905C0081477C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49E5EA351DBA4E3600204325 /* Nimble.framework */,
+				49E5EA361DBA4E3600204325 /* Quick.framework */,
 				492E50C21DAACB3C00D78B55 /* CoreGraphics.framework */,
 				499AF2581D9A905C0081477C /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49E5EA291DBA3E1B00204325 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				49E5EA441DBA550400204325 /* UIKit+Convenience.swift */,
+			);
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +381,7 @@
 				4932CC931D917B6100E46E41 /* Sources */,
 				4932CC941D917B6100E46E41 /* Frameworks */,
 				4932CC951D917B6100E46E41 /* Resources */,
+				49E5EA391DBA4E7800204325 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -448,6 +479,7 @@
 				4971A17F1DB7C55800628383 /* Logging.swift in Sources */,
 				4971A1781DB7C55800628383 /* CoreDataStack.swift in Sources */,
 				4971A1831DB7C55800628383 /* UIView+AutoLayout.swift in Sources */,
+				49E5EA281DBA3D5A00204325 /* UIView+Convenience.swift in Sources */,
 				4971A1851DB7C55800628383 /* UIViewController+Additions.swift in Sources */,
 				4971A1791DB7C55800628383 /* NSManagedObject+Additions.swift in Sources */,
 				4971A1771DB7C55800628383 /* CoreDataHelper.swift in Sources */,
@@ -478,6 +510,7 @@
 				495FEB4F1DA12EEA0097FC34 /* TestModel.xcdatamodeld in Sources */,
 				492865281DA19E1C00A3D8AD /* NSManagedObject+AdditionsTests.swift in Sources */,
 				492E50CF1DABF95700D78B55 /* MSSticker+AdditionsTests.swift in Sources */,
+				49E5EA451DBA550400204325 /* UIKit+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +675,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Z3SAL3W4E6;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = BuffstopToolboxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.buffhaltestelle.BuffstopToolboxTests;
@@ -655,6 +689,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Z3SAL3W4E6;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = BuffstopToolboxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.buffhaltestelle.BuffstopToolboxTests;
