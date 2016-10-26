@@ -22,8 +22,6 @@ class String_UnicodeTests: XCTestCase {
                 return
         }
         
-        print("result: \(result)")
-        print("expected: \(expected)")
         XCTAssertTrue(result == expected)
     }
     
@@ -36,9 +34,7 @@ class String_UnicodeTests: XCTestCase {
                 XCTFail("Must not throw with valid input")
                 return
         }
-        
-        print("result: \(result)")
-        print("expected: \(expected)")
+
         XCTAssertTrue(result == expected)
     }
 
@@ -53,9 +49,7 @@ class String_UnicodeTests: XCTestCase {
                 XCTFail("Must not throw with valid input")
                 return
         }
-        
-        print("result: \(result)")
-        print("expected: \(expected)")
+
         XCTAssertTrue(result == expected)
     }
     
@@ -69,9 +63,6 @@ class String_UnicodeTests: XCTestCase {
                 return
         }
         
-        print("result: \(result)")
-        print("expected: \(expected)")
         XCTAssertTrue(result == expected)
     }
-    
 }
