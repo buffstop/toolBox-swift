@@ -40,6 +40,7 @@
 		498954A81DA3D6AA0020B848 /* CoreDataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */; };
 		49E5EA281DBA3D5A00204325 /* UIView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */; };
 		49E5EA451DBA550400204325 /* UIKit+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA441DBA550400204325 /* UIKit+Convenience.swift */; };
+		49E5EA471DBA744900204325 /* UIImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA461DBA744900204325 /* UIImageView+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		49E5EA351DBA4E3600204325 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../../Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		49E5EA361DBA4E3600204325 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = ../../Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		49E5EA441DBA550400204325 /* UIKit+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIKit+Convenience.swift"; path = "UIKit/UIKit+Convenience.swift"; sourceTree = "<group>"; };
+		49E5EA461DBA744900204325 /* UIImageView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +320,7 @@
 				4971A1741DB7C55800628383 /* UIView+Inspectables.swift */,
 				4971A1751DB7C55800628383 /* UIViewController+Additions.swift */,
 				49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */,
+				49E5EA461DBA744900204325 /* UIImageView+Additions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 				4971A1851DB7C55800628383 /* UIViewController+Additions.swift in Sources */,
 				4971A1791DB7C55800628383 /* NSManagedObject+Additions.swift in Sources */,
 				4971A1771DB7C55800628383 /* CoreDataHelper.swift in Sources */,
+				49E5EA471DBA744900204325 /* UIImageView+Additions.swift in Sources */,
 				4971A17B1DB7C55800628383 /* MSSticker+Additions.swift in Sources */,
 				4971A1801DB7C55800628383 /* ObjectInformationHelper.swift in Sources */,
 				4971A1811DB7C55800628383 /* PropertyListHelper.swift in Sources */,
