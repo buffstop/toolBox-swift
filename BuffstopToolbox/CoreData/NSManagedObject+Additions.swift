@@ -10,12 +10,6 @@ import CoreData
 
 public extension NSManagedObject {
     
-    public static var entityName:String {
-        get {
-            return ObjectInformationHelper.className(ofObject: self)
-        }
-    }
-    
     static public func uniqueID() -> String {
         let uuid = UUID().uuidString
         let dateString = "\(Date().timeIntervalSince1970)"
