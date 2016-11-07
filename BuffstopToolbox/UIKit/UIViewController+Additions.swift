@@ -9,6 +9,7 @@
 import Foundation
 
 public extension UIViewController {
+    
     public func removeChildViewControllers() {
         for child in self.childViewControllers {
             child.willMove(toParentViewController: nil)
@@ -20,9 +21,14 @@ public extension UIViewController {
     public func addChildViewController(_ controller: UIViewController, embedViewIn containerView: UIView) {
         controller.willMove(toParentViewController: self)
         addChildViewController(controller)
-//        controller.view.frame = containerView.frame
         containerView.addSubview(controller.view)
         controller.view.addCustomConstraints(CustomConstrains.FullSizeInSuperview)
         controller.didMove(toParentViewController: self)
+    }
+    
+    public func removeChildViewController(_ controller: UIViewController) {
+        controller.willMove(toParentViewController: nil)
+        controller.view.removeFromSuperview()
+        controller.removeFromParentViewController()
     }
 }
