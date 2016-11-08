@@ -12,9 +12,7 @@ public extension UIViewController {
     
     public func removeChildViewControllers() {
         for child in self.childViewControllers {
-            child.willMove(toParentViewController: nil)
-            child.view.removeFromSuperview()
-            child.removeFromParentViewController()
+            removeChildViewController(child)
         }
     }
     
