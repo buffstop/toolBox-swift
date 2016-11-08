@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490788CD1DD26DCC00AF6B06 /* FileManager+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490788CC1DD26DCC00AF6B06 /* FileManager+Additions.swift */; };
 		491EFC491D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EFC481D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift */; };
 		491EFC4B1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EFC4A1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift */; };
 		492865281DA19E1C00A3D8AD /* NSManagedObject+AdditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492865271DA19E1C00A3D8AD /* NSManagedObject+AdditionsTests.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		490788CC1DD26DCC00AF6B06 /* FileManager+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Additions.swift"; sourceTree = "<group>"; };
 		491EFC481D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectInformationTestClassSwift.swift; path = TestData/ObjectInformationTestClassSwift.swift; sourceTree = "<group>"; };
 		491EFC4A1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectInformationTestClassNSObject.swift; path = TestData/ObjectInformationTestClassNSObject.swift; sourceTree = "<group>"; };
 		492865271DA19E1C00A3D8AD /* NSManagedObject+AdditionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSManagedObject+AdditionsTests.swift"; path = "CoreData/NSManagedObject+AdditionsTests.swift"; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				4971A1671DB7C55800628383 /* String+Unicode.swift */,
+				490788CC1DD26DCC00AF6B06 /* FileManager+Additions.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				4971A1811DB7C55800628383 /* PropertyListHelper.swift in Sources */,
 				4971A17A1DB7C55800628383 /* String+Unicode.swift in Sources */,
 				4971A17D1DB7C55800628383 /* CommonConstants.swift in Sources */,
+				490788CD1DD26DCC00AF6B06 /* FileManager+Additions.swift in Sources */,
 				4971A1821DB7C55800628383 /* UnicodeConverter.swift in Sources */,
 				4971A17C1DB7C55800628383 /* AppGroupHelper.swift in Sources */,
 				4971A1841DB7C55800628383 /* UIView+Inspectables.swift in Sources */,
