@@ -37,6 +37,12 @@ open class CoreDataStack {
                 fatalError("Unresolved error \(error)")
             }
         })
+        
+        #if DEBUG
+            print("persistentStore URL: \(persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
+        #endif
+        
+        //-> file:///var/mobile/Containers/Data/PluginKitPlugin/B86BD789-D868-45BE-AA8B-C76C623CA85B/Library/Application%20Support/Model.sqlite
     }
     
     // MARK: convenience
