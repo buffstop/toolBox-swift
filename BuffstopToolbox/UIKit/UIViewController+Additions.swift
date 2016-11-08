@@ -6,13 +6,13 @@
 //  Copyright © 2016 buffhaltestelle. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public extension UIViewController {
     
     public func removeChildViewControllers() {
         for child in self.childViewControllers {
-            removeChildViewController(child)
+            bf_removeChildViewController(child)
         }
     }
     
@@ -24,7 +24,8 @@ public extension UIViewController {
         controller.didMove(toParentViewController: self)
     }
     
-    public func removeChildViewController(_ controller: UIViewController) {
+    // Name prefixed due to strange EXC_BAD_ACCESS crash, probably caused by name clashing of method name with underlying Obj-C methode in non-public API. See: http://stackoverflow.com/questions/40493497/method-not-found-at-runtime?noredirect=1#comment68232076_40493497
+    public func bf_removeChildViewController(_ controller: UIViewController) {
         controller.willMove(toParentViewController: nil)
         controller.view.removeFromSuperview()
         controller.removeFromParentViewController()
