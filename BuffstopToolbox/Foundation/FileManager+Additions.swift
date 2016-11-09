@@ -15,6 +15,6 @@ public extension FileManager {
     ///
     /// - Returns: Documents directory
     public static func documentsDirectory() -> URL {
-        return NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+        return URL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0])
     }
 }
