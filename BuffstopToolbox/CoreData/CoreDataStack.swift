@@ -37,12 +37,6 @@ open class CoreDataStack {
                 fatalError("Unresolved error \(error)")
             }
         })
-        
-        #if DEBUG
-            print("persistentStore URL: \(persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
-        #endif
-        
-        //-> file:///var/mobile/Containers/Data/PluginKitPlugin/B86BD789-D868-45BE-AA8B-C76C623CA85B/Library/Application%20Support/Model.sqlite
     }
     
     // MARK: convenience
@@ -62,7 +56,7 @@ open class CoreDataStack {
         return moc
     }
     
-    // MAKR: Other
+    // MAKR: - OTHER
     
     public func save() {
         let context = mainContext()
@@ -75,6 +69,30 @@ open class CoreDataStack {
                     fatalError()
                 #endif
             }
+        }
+    }
+    
+    // MARK: - DEBUG
+    
+    /**
+      In case we are using a shared container, it might help to have the model in AppContatiner/documents to quickly be able to downoad it via Xcode for debugging.
+     */
+    public func debug_copyModelToDocuments() {
+        print("persistentStore URL: \(persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
+        
+        //-> file:///var/mobile/Containers/Data/PluginKitPlugin/C92CFB0E-0999-49A4-8E1D-C4A4B5491A1C/Library/Application%20Support/Model.sqlite
+        
+        let documentsPath = FileManager.documentsDirectory()
+        let targetPath = "\(documentsPath)/DebugEvalutation_\(Date())_Model.sqlite"
+        
+        print("targetPath: " + targetPath)
+        
+        let fileManager = FileManager.default
+        do {
+            try fileManager.copyItem(at: persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!, to: URL(fileURLWithPath: targetPath))
+        }
+        catch let error as NSError {
+            logError("Ooops! Something went wrong: \(error)")
         }
     }
 }
