@@ -84,14 +84,15 @@ open class CoreDataStack {
         
         let documentsPath = FileManager.documentsDirectory()
         let targetPath = "\(documentsPath)DebugEvalutation_\(Date())_Model.sqlite"
+        let targetUrl = URL(fileURLWithPath: targetPath)
         
         print("targetPath: " + targetPath)
         
         let fileManager = FileManager.default
         do {
-            try fileManager.copyItem(at: persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!, to: URL(fileURLWithPath: targetPath))
+            try fileManager.copyItem(at: persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!, to: targetUrl)
         } catch let error as NSError {
-            logError("Ooops! Something went wrong: \(error)")
+            logError("Error copying model: \(error)")
         }
     }
 }
