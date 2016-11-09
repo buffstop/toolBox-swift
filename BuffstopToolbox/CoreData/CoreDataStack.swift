@@ -83,15 +83,14 @@ open class CoreDataStack {
         //-> file:///var/mobile/Containers/Data/PluginKitPlugin/C92CFB0E-0999-49A4-8E1D-C4A4B5491A1C/Library/Application%20Support/Model.sqlite
         
         let documentsPath = FileManager.documentsDirectory()
-        let targetPath = "\(documentsPath)/DebugEvalutation_\(Date())_Model.sqlite"
+        let targetPath = "\(documentsPath)DebugEvalutation_\(Date())_Model.sqlite"
         
         print("targetPath: " + targetPath)
         
         let fileManager = FileManager.default
         do {
             try fileManager.copyItem(at: persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!, to: URL(fileURLWithPath: targetPath))
-        }
-        catch let error as NSError {
+        } catch let error as NSError {
             logError("Ooops! Something went wrong: \(error)")
         }
     }
