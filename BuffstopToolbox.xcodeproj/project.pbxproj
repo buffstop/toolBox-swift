@@ -19,6 +19,7 @@
 		492E50D91DABFA1500D78B55 /* not_animated.png in Resources */ = {isa = PBXBuildFile; fileRef = 492E50D71DABFA1500D78B55 /* not_animated.png */; };
 		4932CC981D917B6100E46E41 /* BuffstopToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4932CC8E1D917B6100E46E41 /* BuffstopToolbox.framework */; };
 		4932CC9F1D917B6100E46E41 /* BuffstopToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4932CC911D917B6100E46E41 /* BuffstopToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494C71691DD37A4900CDA0BA /* UICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C71681DD37A4900CDA0BA /* UICollectionView+Additions.swift */; };
 		495FEB4F1DA12EEA0097FC34 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB4D1DA12EEA0097FC34 /* TestModel.xcdatamodeld */; };
 		495FEB511DA12F600097FC34 /* TestCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB501DA12F600097FC34 /* TestCoreDataStack.swift */; };
 		495FEB581DA133030097FC34 /* TestEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */; };
@@ -83,6 +84,7 @@
 		4932CC921D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4932CC971D917B6100E46E41 /* BuffstopToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuffstopToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4932CC9E1D917B6100E46E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494C71681DD37A4900CDA0BA /* UICollectionView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Additions.swift"; sourceTree = "<group>"; };
 		495FEB4E1DA12EEA0097FC34 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
 		495FEB501DA12F600097FC34 /* TestCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCoreDataStack.swift; path = Helper/TestCoreDataStack.swift; sourceTree = "<group>"; };
 		495FEB561DA133030097FC34 /* TestEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TestEntity+CoreDataClass.swift"; path = "TestData/CoreData/TestEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 				4971A1751DB7C55800628383 /* UIViewController+Additions.swift */,
 				49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */,
 				49E5EA461DBA744900204325 /* UIImageView+Additions.swift */,
+				494C71681DD37A4900CDA0BA /* UICollectionView+Additions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				49E5EA471DBA744900204325 /* UIImageView+Additions.swift in Sources */,
 				4971A17B1DB7C55800628383 /* MSSticker+Additions.swift in Sources */,
 				4971A1801DB7C55800628383 /* ObjectInformationHelper.swift in Sources */,
+				494C71691DD37A4900CDA0BA /* UICollectionView+Additions.swift in Sources */,
 				4971A1811DB7C55800628383 /* PropertyListHelper.swift in Sources */,
 				4971A17A1DB7C55800628383 /* String+Unicode.swift in Sources */,
 				4971A17D1DB7C55800628383 /* CommonConstants.swift in Sources */,
