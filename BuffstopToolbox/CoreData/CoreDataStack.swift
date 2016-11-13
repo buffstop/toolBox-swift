@@ -79,7 +79,7 @@ open class CoreDataStack {
      */
     public func debug_copyModelToDocuments() {
         //FIXME: or delete me
-//        print("persistentStore URL: \(persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
+        print("persistentStore URL: \(persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
 //        //-> persistentStore URL: file:///var/mobile/Containers/Data/PluginKitPlugin/9C15B67C-8917-4A24-9FB0-BD119C43B3C4/Library/Application%20Support/Model.sqlite
 //        
 //        let documentsPath = FileManager.documentsDirectory()
