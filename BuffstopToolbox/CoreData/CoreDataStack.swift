@@ -36,6 +36,10 @@ open class CoreDataStack {
             if let error = error {
                 fatalError("Unresolved error \(error)")
             }
+            
+            #if DEBUG
+                print("persistentStore URL: \(persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
+            #endif
         })
     }
     
