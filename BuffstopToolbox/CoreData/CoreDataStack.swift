@@ -75,32 +75,4 @@ open class CoreDataStack {
             }
         }
     }
-    
-    // MARK: - DEBUG
-    
-    /**
-      In case we are using a shared container, it might help to have the model in AppContatiner/documents to quickly be able to downoad it via Xcode for debugging.
-     */
-    public func debug_copyModelToDocuments() {
-        //FIXME: or delete me
-        print("persistentStore URL: \(persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
-//        //-> persistentStore URL: file:///var/mobile/Containers/Data/PluginKitPlugin/9C15B67C-8917-4A24-9FB0-BD119C43B3C4/Library/Application%20Support/Model.sqlite
-//        
-//        let documentsPath = FileManager.documentsDirectory()
-//        let folder = "\(documentsPath)DebugEvalutation_\(Date().timeIntervalSince1970)"
-//        
-//        let fileManager = FileManager.default
-//        try! fileManager.createDirectory(atPath: folder, withIntermediateDirectories: true, attributes: nil)
-//        
-//        let targetUrl = URL(fileURLWithPath: folder)
-//        print("targetUrl: \(targetUrl)")
-//            
-//        //-> targetPath: file:///var/mobile/Containers/Data/PluginKitPlugin/D0BBD375-A8B7-43DD-8486-1909965CAEB0/Documents/DebugEvalutation_2016-11-09 11:25:03 +0000_Model.sqlite
-//        
-//        do {
-//            try fileManager.copyItem(at: persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!, to: targetUrl)
-//        } catch {
-//            logError("Error copying model: \(error)")
-//        }
-    }
 }
