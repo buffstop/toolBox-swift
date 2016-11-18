@@ -38,7 +38,7 @@ open class CoreDataStack {
             }
             
             #if DEBUG
-                print("persistentStore URL: \(persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
+                print("persistentStore URL: \(self.persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
             #endif
         })
     }
