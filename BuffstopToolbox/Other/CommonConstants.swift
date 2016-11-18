@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import UIKit
 
 // MARK: XCTest
 public let xcTestCaseDefaultTimeout = 0.5
 
 // MARK: - UI & Animation
 public let defaultAnimationDuration = 0.3
+public let defaultGreyOutAlpha = CGFloat(0.65)
