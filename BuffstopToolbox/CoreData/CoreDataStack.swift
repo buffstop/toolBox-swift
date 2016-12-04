@@ -38,11 +38,11 @@ open class CoreDataStack {
         print(storUrl)
         persistentContainer.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error {
-            #if DEBUG
+                #if DEBUG
                     fatalError("Unresolved error \(error)")
-            #else
+                #else
                     logError("loadPersistentStores failed with Error: \(error) \nURL: \(self.persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
-            #endif
+                #endif
             }
         })
     }
