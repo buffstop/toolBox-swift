@@ -11,11 +11,6 @@ import CoreData
 
 class NSManagedObject_AdditionsTests: XCTestCase {
     let testEntity = "TestEntity"
-
-    func testEntetyName() {
-        let entityName = TestEntity.entityName
-        XCTAssertEqual(entityName, self.testEntity)
-    }
     
     func testUuid() {
         let uuid = TestEntity.uniqueID()
