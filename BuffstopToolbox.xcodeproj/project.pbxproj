@@ -40,9 +40,10 @@
 		4971A1841DB7C55800628383 /* UIView+Inspectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1741DB7C55800628383 /* UIView+Inspectables.swift */; };
 		4971A1851DB7C55800628383 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1751DB7C55800628383 /* UIViewController+Additions.swift */; };
 		498954A81DA3D6AA0020B848 /* CoreDataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */; };
+		49AD27811DF5B65F00002073 /* UIImage+AdditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD27801DF5B65F00002073 /* UIImage+AdditionsTests.swift */; };
 		49E5EA281DBA3D5A00204325 /* UIView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */; };
-		49E5EA451DBA550400204325 /* UIKit+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA441DBA550400204325 /* UIKit+Convenience.swift */; };
-		49E5EA471DBA744900204325 /* UIImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA461DBA744900204325 /* UIImageView+Additions.swift */; };
+		49E5EA451DBA550400204325 /* UIKit+ConvenienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA441DBA550400204325 /* UIKit+ConvenienceTests.swift */; };
+		49E5EA471DBA744900204325 /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA461DBA744900204325 /* UIImage+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,11 +107,12 @@
 		4971A1751DB7C55800628383 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
 		498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStackTests.swift; path = CoreData/CoreDataStackTests.swift; sourceTree = "<group>"; };
 		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		49AD27801DF5B65F00002073 /* UIImage+AdditionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+AdditionsTests.swift"; path = "UIKit/UIImage+AdditionsTests.swift"; sourceTree = "<group>"; };
 		49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Convenience.swift"; sourceTree = "<group>"; };
 		49E5EA351DBA4E3600204325 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../../Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		49E5EA361DBA4E3600204325 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = ../../Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		49E5EA441DBA550400204325 /* UIKit+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIKit+Convenience.swift"; path = "UIKit/UIKit+Convenience.swift"; sourceTree = "<group>"; };
-		49E5EA461DBA744900204325 /* UIImageView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Additions.swift"; sourceTree = "<group>"; };
+		49E5EA441DBA550400204325 /* UIKit+ConvenienceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIKit+ConvenienceTests.swift"; path = "UIKit/UIKit+ConvenienceTests.swift"; sourceTree = "<group>"; };
+		49E5EA461DBA744900204325 /* UIImage+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,9 +234,9 @@
 		4932CC9B1D917B6100E46E41 /* BuffstopToolboxTests */ = {
 			isa = PBXGroup;
 			children = (
-				49E5EA291DBA3E1B00204325 /* UIKit */,
 				491EFC4C1D9FE2EC00D0576F /* Test Data */,
 				491EFC431D9FD9F500D0576F /* Helper */,
+				49E5EA291DBA3E1B00204325 /* UIKit */,
 				492E50C81DABB78D00D78B55 /* Foundation */,
 				492865261DA19DC800A3D8AD /* CoreData */,
 				492E50CD1DABF93600D78B55 /* Messages */,
@@ -325,7 +327,7 @@
 				4971A1741DB7C55800628383 /* UIView+Inspectables.swift */,
 				4971A1751DB7C55800628383 /* UIViewController+Additions.swift */,
 				49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */,
-				49E5EA461DBA744900204325 /* UIImageView+Additions.swift */,
+				49E5EA461DBA744900204325 /* UIImage+Additions.swift */,
 				494C71681DD37A4900CDA0BA /* UICollectionView+Additions.swift */,
 			);
 			path = UIKit;
@@ -345,7 +347,8 @@
 		49E5EA291DBA3E1B00204325 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				49E5EA441DBA550400204325 /* UIKit+Convenience.swift */,
+				49E5EA441DBA550400204325 /* UIKit+ConvenienceTests.swift */,
+				49AD27801DF5B65F00002073 /* UIImage+AdditionsTests.swift */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -409,7 +412,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = buffhaltestelle;
 				TargetAttributes = {
 					4932CC8D1D917B6100E46E41 = {
@@ -492,7 +495,7 @@
 				4971A1851DB7C55800628383 /* UIViewController+Additions.swift in Sources */,
 				4971A1791DB7C55800628383 /* NSManagedObject+Additions.swift in Sources */,
 				4971A1771DB7C55800628383 /* CoreDataHelper.swift in Sources */,
-				49E5EA471DBA744900204325 /* UIImageView+Additions.swift in Sources */,
+				49E5EA471DBA744900204325 /* UIImage+Additions.swift in Sources */,
 				4971A17B1DB7C55800628383 /* MSSticker+Additions.swift in Sources */,
 				4971A1801DB7C55800628383 /* ObjectInformationHelper.swift in Sources */,
 				494C71691DD37A4900CDA0BA /* UICollectionView+Additions.swift in Sources */,
@@ -513,6 +516,7 @@
 				491EFC4B1D9FE10D00D0576F /* ObjectInformationTestClassNSObject.swift in Sources */,
 				495FEB511DA12F600097FC34 /* TestCoreDataStack.swift in Sources */,
 				491EFC491D9FE0D800D0576F /* ObjectInformationTestClassSwift.swift in Sources */,
+				49AD27811DF5B65F00002073 /* UIImage+AdditionsTests.swift in Sources */,
 				495FEB581DA133030097FC34 /* TestEntity+CoreDataClass.swift in Sources */,
 				4928652A1DA19E6500A3D8AD /* CoreDataHelperTests.swift in Sources */,
 				492E50CA1DABB7E800D78B55 /* String+UnicodeTests.swift in Sources */,
@@ -522,7 +526,7 @@
 				495FEB4F1DA12EEA0097FC34 /* TestModel.xcdatamodeld in Sources */,
 				492865281DA19E1C00A3D8AD /* NSManagedObject+AdditionsTests.swift in Sources */,
 				492E50CF1DABF95700D78B55 /* MSSticker+AdditionsTests.swift in Sources */,
-				49E5EA451DBA550400204325 /* UIKit+Convenience.swift in Sources */,
+				49E5EA451DBA550400204325 /* UIKit+ConvenienceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +559,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -608,6 +613,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

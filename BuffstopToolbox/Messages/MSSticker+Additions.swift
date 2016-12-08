@@ -15,8 +15,6 @@ public extension MSSticker {
     ///
     /// - returns: true if the contained image holds more than one frame. false otherwize
     public func isAnimateAble() -> Bool {
-        guard let stickerImageSource = CGImageSourceCreateWithURL(self.imageFileURL as CFURL , nil) else { return false }
-        let stickerImageFrameCount = CGImageSourceGetCount(stickerImageSource)
-        return stickerImageFrameCount > 1
+        return UIImage.isAnimatable(imageFileAt: self.imageFileURL)
     }
 }
