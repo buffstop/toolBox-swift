@@ -27,7 +27,7 @@ extension UIImage {
     /// Figures out whether or not an image is animatable by counting the used images frames. We assume the image is animatable if it contains more than one frame
     ///
     /// - returns: true if the contained image holds more than one frame. false otherwize
-    static func isAnimatable(imageFileAt url:URL) -> Bool {
+    static public func isAnimatable(imageFileAt url:URL) -> Bool {
         guard let imageSource = CGImageSourceCreateWithURL(url as CFURL , nil) else { return false }
         let frameCount = CGImageSourceGetCount(imageSource)
         return frameCount > 1
