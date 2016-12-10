@@ -35,7 +35,6 @@ open class CoreDataStack {
             persistentContainer.persistentStoreDescriptions = [description]
         }
         
-        print(storUrl)
         persistentContainer.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error {
                 #if DEBUG
