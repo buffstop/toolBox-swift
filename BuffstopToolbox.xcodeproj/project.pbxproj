@@ -40,6 +40,7 @@
 		4971A1841DB7C55800628383 /* UIView+Inspectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1741DB7C55800628383 /* UIView+Inspectables.swift */; };
 		4971A1851DB7C55800628383 /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971A1751DB7C55800628383 /* UIViewController+Additions.swift */; };
 		498954A81DA3D6AA0020B848 /* CoreDataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */; };
+		49AB3AD01E35569C0013E580 /* UIView+XIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AB3ACF1E35569C0013E580 /* UIView+XIB.swift */; };
 		49AD27811DF5B65F00002073 /* UIImage+AdditionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD27801DF5B65F00002073 /* UIImage+AdditionsTests.swift */; };
 		49E5EA281DBA3D5A00204325 /* UIView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */; };
 		49E5EA451DBA550400204325 /* UIKit+ConvenienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E5EA441DBA550400204325 /* UIKit+ConvenienceTests.swift */; };
@@ -107,6 +108,7 @@
 		4971A1751DB7C55800628383 /* UIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
 		498954A71DA3D6AA0020B848 /* CoreDataStackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStackTests.swift; path = CoreData/CoreDataStackTests.swift; sourceTree = "<group>"; };
 		499AF2581D9A905C0081477C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		49AB3ACF1E35569C0013E580 /* UIView+XIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+XIB.swift"; sourceTree = "<group>"; };
 		49AD27801DF5B65F00002073 /* UIImage+AdditionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+AdditionsTests.swift"; path = "UIKit/UIImage+AdditionsTests.swift"; sourceTree = "<group>"; };
 		49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Convenience.swift"; sourceTree = "<group>"; };
 		49E5EA351DBA4E3600204325 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../../Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
@@ -329,6 +331,7 @@
 				49E5EA271DBA3D5A00204325 /* UIView+Convenience.swift */,
 				49E5EA461DBA744900204325 /* UIImage+Additions.swift */,
 				494C71681DD37A4900CDA0BA /* UICollectionView+Additions.swift */,
+				49AB3ACF1E35569C0013E580 /* UIView+XIB.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -489,6 +492,7 @@
 			files = (
 				4971A17E1DB7C55800628383 /* CommonErrors.swift in Sources */,
 				4971A17F1DB7C55800628383 /* Logging.swift in Sources */,
+				49AB3AD01E35569C0013E580 /* UIView+XIB.swift in Sources */,
 				4971A1781DB7C55800628383 /* CoreDataStack.swift in Sources */,
 				4971A1831DB7C55800628383 /* UIView+AutoLayout.swift in Sources */,
 				49E5EA281DBA3D5A00204325 /* UIView+Convenience.swift in Sources */,
