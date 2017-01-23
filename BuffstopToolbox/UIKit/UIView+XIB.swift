@@ -9,7 +9,7 @@
 import Foundation
 
 extension UIView {
-    class public func fromNib<T : UIView>() -> T? {
+    class func fromNib() -> UIView? {
         guard
             let nibs = Bundle(for: self).loadNibNamed(String(describing: self), owner: nil, options: nil),
             let nib = nibs.first
@@ -17,6 +17,7 @@ extension UIView {
                 return nil
         }
         
-        return nib as? T
+        return nib as? UIView
     }
+    
 }
