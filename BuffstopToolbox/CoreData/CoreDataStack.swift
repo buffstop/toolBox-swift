@@ -42,7 +42,7 @@ open class CoreDataStack {
                     logError("loadPersistentStores failed with Error: \(error) \nURL: \(self.persistentContainer.persistentStoreCoordinator.persistentStores.first!.url!)")
                 #endif
             }
-        })
+        }
     }
     
     // MARK: convenience
