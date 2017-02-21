@@ -26,16 +26,15 @@ open class CoreDataStack {
         
         persistentContainer = NSPersistentContainer(name: momdName, managedObjectModel: mom)
         
-        // If a base URL is given, use it. Else use persistant stores default
-        var storUrl:URL?
-        if baseUrl != nil {
-            storUrl = baseUrl!.appendingPathComponent(momdName)
-            storUrl = storUrl!.appendingPathExtension("sqlite")
-            let description = NSPersistentStoreDescription(url: storUrl!)
+        // If a base URL is given, use it. Else use persistent stores default
+        if let baseUrl = baseUrl {
+            var storeUrl = baseUrl.appendingPathComponent(momdName)
+            storeUrl = storeUrl.appendingPathExtension("sqlite")
+            let description = NSPersistentStoreDescription(url: storeUrl)
             persistentContainer.persistentStoreDescriptions = [description]
         }
         
-        persistentContainer.loadPersistentStores(completionHandler: { (storeDescription, error) in
+        persistentContainer.loadPersistentStores() { (storeDescription, error) in
             if let error = error {
                 #if DEBUG
                     fatalError("Unresolved error \(error)")
